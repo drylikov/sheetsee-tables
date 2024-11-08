@@ -1,0 +1,32 @@
+{
+  "name": "sheetsee-tables",
+  "version": "0.2.0",
+  "description": "enables table creating functionality with sheetsee.js",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "node test/browserify.js && open test/index.html",
+    "bfy": "node test/browserify.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlord/sheetsee-tables.git"
+  },
+  "author": "Jessica Lord",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jlord/sheetsee-tables/issues"
+  },
+  "keywords": [
+    "spreadsheet",
+    "tables"
+  ],
+  "dependencies": {
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "standard": "^8.6.0",
+    "watchify": "^3.9.0"
+  }
+}
